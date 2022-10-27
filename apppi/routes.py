@@ -6,7 +6,7 @@ menu = [{"name": 'Главная', "url": 'index'}, {"name": 'О програм�
 
 
 @app.route('/')
-@app.route('/index')
+@app.route('/index' )
 def index():
     best_pi = {'username': 'Никита'}
 
