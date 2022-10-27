@@ -2,8 +2,8 @@ from apppi import app
 from flask import render_template
 from random import choice
 
-menu = [{"name": 'Главная', "url": 'index'}, {"name": 'О программе', "url": 'about'}, {"name": 'Помощь', "url": 'help'}]
-
+menu = [{"name": 'Главная', "url": 'index'}, {"name": 'О программе', "url": 'about'},
+{"name": 'Помощь', "url": 'help'}, {"name": 'я', "url": 'nikita'}]
 
 @app.route('/')
 @app.route('/index')
@@ -22,3 +22,8 @@ def help():
 @app.route('/about')
 def about():
     return render_template('about.html', menu=menu)
+
+
+@app.route('/nikita')
+def nikita():
+    return render_template('nikita5023.html', menu=menu)
