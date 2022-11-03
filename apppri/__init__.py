@@ -1,5 +1,5 @@
 from flask import Flask
-from apppri.config import Config
+from apppi.config import Config
 
 app = Flask(__name__)
 # app.config['SECRET_KEY'] = 'ikljsdehgfno;slkefjhgwielkjtnmgfwoiehjnewrkgn'

@@ -1,6 +1,35 @@
 {% extends "base.html" %}
 {% block content %}
 {{ super() }}
-<H1>0, НУ ДА, ЭТО Я, Апенько Никита</H1>
 
+<H1>Мой средний бал 4,2</H1>
+
+ <header>
+
+  <style>
+   table {
+    width: 100%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+   }
+   td, th {
+    background: maroon; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+   }
+  </style>
+ </header>
+<H1>0, НУ ДА, ЭТО Я, Апенько Никита</H1>
+ <body>
+
+ <img src="https://www.krasnouhie.ru/wp-content/uploads/2017/02/mongooses2.jpg" />
+  <table>
+   <tr><th>Предметы</th><th>Оценка</th></tr>
+   <tr><td>Информатика</td><td> 4</td></tr>
+      <tr><td>Физика</td><td> 4</td></tr>
+      <tr><td>Физкультура</td><td> 5</td></tr>
+       <tr><td>Русский</td><td> 5</td></tr>
+  </table>
+ </body>
+</html>
 {% endblock %}
