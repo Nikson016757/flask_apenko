@@ -6,21 +6,21 @@ html, body {
 	width: 100%;
 }
 a {
-	color: #0059b2;
+	color: #8C003D;
 	text-decoration: none;
 }
 a:hover {
-	color: #CC0000;
+	color: #FFF400;
 	text-decoration: underline;
 }
 
 ul.mainmenu {
 	list-style: none;
-	background: #3F4137;
+	background: #FFF400;
 	height: 60px;
 	margin: 0;
 	padding: 0;
-	color: #fdc073;
+	color: #006D4F;
 	font-size: 20px;
 	overflow: hidden;
 }
@@ -31,7 +31,7 @@ ul.mainmenu li {
 ul.mainmenu li.last {float: right;}
 
 ul.mainmenu li a {
-	color: #fdc073;
+	color: #006D4F;
 	text-decoration: none;
 }
 ul.mainmenu li a:hover {
